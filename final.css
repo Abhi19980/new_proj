@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background-color:#EFEFEF}
+div#top{
+	padding:30px;
+	padding-left:180px;
+	background-color:#D6D6D6;
+}
+p{
+	padding:10px;
+	background-color:#37FF37;
+	color:#7D0000;
+	border:solid;
+}
+div#text{
+	padding-left:150px;
+	padding-right:840px;
+}
+div#secure{
+	position:absolute;
+	top:150px;
+	right:200px;
+}
+
+footer {
+  background-color:#000;
+  color:            #fff;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+  position:absolute;
+  bottom:0px;
+  right:5px;
+  left:5px;
+}
+
+div#connect{
+	padding:50px;
+	padding-left:150px;
+}

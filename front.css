@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#EFEFEF;
+	}
+
+div.img
+  {
+  margin:5px;
+  padding: 5px;
+  border:1px solid #0000ff;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  }
+div.img img
+  {
+  display:inline;
+  margin:5px;
+  border:1px solid #ffffff;
+  }
+div.img a:hover img
+  {
+  border:1px solid #0000ff;
+  background-image:url("buy-now.png");
+  z-index:2;
+  }
+div.desc
+  {
+  text-align:center;
+  font-weight:normal;
+  width:120px;
+  margin:5px;
+  }
+
+
+body{
+	padding:0px;
+}
+div#top{
+	background-color:#E6E6E6;
+	padding:5px;
+}
+div#top img{
+	padding:10px;
+	padding-left:120px;
+}
+
+div#mid{
+	padding:20px;
+	padding-left:150px;
+}
+HR{}
+
+
+
+
+
+nav {
+    background-color:#D2D2D2;
+	margin: 10px 10px 0px 10px;
+	font-size:larger;
+	padding-left:120px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+
+/*
+	text-shadow: 1px 1px 3px #e2c2c2; 
+	text-transform: uppercase;
+*/
+}
+
+footer {
+  background-color:#000;
+  color:            #fff;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+}
+
+
+
+
+
+
+div#login{
+	position:absolute;
+	text-transform:hidden;	
+	text-shadow:2px 2px 2px #039;
+	width:55px;
+	height:70px;
+	color:#000;
+	left:1067px;;
+	top:10px;
+	border-right:inset;
+	text-align:center;
+	overflow:hidden;
+	transition:all 1s;
+	-webkit-transition:all 1s;
+}
+div#login:hover{
+	width:300px;
+	height:240px;
+	position:absolute;
+	left:900px;
+	top:60px;
+	background-color:#fff;
+	box-shadow:2px 2px 2px #000;
+	z-index:2;
+}
+
+
+input[type=text]{
+	height:25px;
+	border-radius:5px;
+	border-bottom-color:#000033;
+	position:absolute;
+	top:30px;
+	left:500px;
+	
+	}
+
+div#search_button{
+	position:absolute;
+	left:779px;
+	top:32px;
+	width:70px;
+	height:22px;
+	background-color:#990;
+	text-align:center;
+	color:#333;
+	border:double;
+}
+a{
+	font-weight:100;
+	text-shadow:2px 2px 2px;
+	text-decoration:none;
+}
+div#track{
+	position:absolute;
+	text-shadow:2px 2px 2px #039;
+	text-shadow:#000;
+	width:45px;
+	height:70px;
+	color:#000;
+	left:960px;
+	
+	top:10px;
+	border-left:inset;
+	border-right:inset;
+	text-align:center;
+}
+div#signup{
+     position:absolute;
+	
+	
+	text-shadow:2px 2px 2px #039;
+	width:55px;
+	height:70px;
+	color:#000;
+	left:1012px;;
+	top:11px;
+	border-right:inset;
+	text-align:center;
+}
+
+div.desc a{
+	background-color:#09C;
+	padding:2px;
+	border-radius:5px;
+	text-decoration:none;
+	color:fff;
+	
+}
+h4{
+	padding-left:200px;
+	position:absolute;
+	top:12px;
+	font-size:larger;
+}

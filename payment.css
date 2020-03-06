@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#EFEFEF;
+	font-size:120%;
+	}
+div#top{
+	
+	
+	background-color:#E6E6E6;
+	padding:10px;
+	padding-left:180px;
+}
+
+input[type=submit]{
+	padding:15px;
+	position:absolute;
+	left:350px;
+}
+note{
+	font-size:70%;
+}
+
+div#pay{
+	padding:0px;
+	padding-left:350px;
+	padding-right:600px;
+}
+div#top{
+	padding:30px;
+	padding-left:180px;
+}
+div#c{
+	background-color:#CCCCCC;
+	border:groove;
+	padding:5px;
+}
+
+div#cards{
+	position:absolute;
+	left:200px;
+	top:200px;
+	background-color:#EEEEEE;
+	border:inset;
+	font-size:15px;
+}
+h2{
+	padding-left:180px;
+	}
+	
+div#secure{
+	position:absolute;
+	top:200px;
+	right:150px;
+}
+
+footer {
+  background-color:#000;
+  color:            #fff;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+  position:absolute;
+  bottom:0px;
+  right:5px;
+  left:5px;
+  font-size:70%;
+}

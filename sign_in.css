@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#EFEFEF}
+div#top{
+	
+	
+	background-color:#E6E6E6;
+	padding:10px;
+	padding-left:180px;
+}
+
+div#left{
+	padding:20px;
+	padding-left:100px;
+	padding-right:850px;
+}
+
+div#right{
+	position:absolute;
+	top:300px;
+	clear:right;
+	right:200px;
+	padding:20px;
+	border:double;
+}
+input[type=submit],input[type=reset]{
+	background-color:#06F;
+	height:30px;
+	border-radius:5px;
+}
+div#rt{
+	border:double;
+	position:absolute;
+	top:100px;
+	right:200px;
+	padding:10px;
+}
+h2{
+	background-color:#D4D4D4;
+	padding:10px;
+	}
+	
+	
+	footer {
+  background-color:#000;
+  color:            #fff;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+  position:absolute;
+  bottom:0px;
+  right:5px;
+  left:5px;
+}

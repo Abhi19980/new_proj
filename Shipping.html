@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Shipping details</title>
+<link rel="stylesheet" href="shipping.css" type="text/css" />
+</head>
+
+<body>
+
+<div id="top">
+<a href="front.html"><img src="image/my-cart.png" alt="mycart.com" width="65" height="49" title="MyCart.com"></a>
+</div>
+
+<div id="left">
+Enter Your Shipping details to serve you better...
+
+<h1>Shipping Address</h1>
+<form name="shipping" action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
+Name * <br /><input type="text" size="35" name="name" / required="required"><p>
+Address * <br /><input type="text" size="35" name="address"/ required="required"><p>
+Landmark <br /><input type="text" size="35" name="landmark"/><p>
+Pin * <br /><input type="text" size="35" name="pin" required><p>
+Contact No. *<br />
+<input type="text" size="35" name="contact" required="required"><p>
+<p>
+<input type="submit" value="Submit" title="click here" />
+<input type="reset" title="click here" href="registered.html" />
+</form>
+</div>
+
+
+
+<footer>
+      &copy; 2018, MyCart.com
+      <br>
+      All trademarks and registered trademarks appearing on 
+      this site are the property of their respective owners.
+    </footer>
+</body>
+</html>

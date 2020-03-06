@@ -1,0 +1,41 @@
+body{
+	background-color:#EFEFEF;
+	}
+
+div#top{
+	
+	background-color:#D8D8D8;
+	
+	padding:10px;
+	padding-left:180px;
+}
+div#left{
+	padding:10px;
+	padding-left:150px;
+}
+div#right{
+	position:absolute;
+	right:100px;
+	top:100px;
+	padding-right:100px;
+}
+input[type=text],input[type=password]{
+	height:20px;
+	border-radius:5px;
+	border-bottom-color:#000033;
+	}
+	
+	
+	
+footer {
+  background-color:#000;
+  color:            #fff;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+  position:absolute;
+  bottom:0px;
+  right:5px;
+  left:5px;
+}
